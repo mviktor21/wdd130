@@ -28,6 +28,10 @@ nav a {
     width: 80px;
 }
 
+.card-img {
+    width: 50%;
+}
+
 .hero-img {
     width: 100%;
 }
