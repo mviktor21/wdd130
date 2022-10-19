@@ -1,0 +1,38 @@
+html {
+    background-color: pink;
+}
+
+body {
+    width: 600px;
+    margin: 0 auto;
+    padding: 0 20px 20px 20px;
+    font: "Times New Roman",  "Arial";
+}
+
+p, h1 {
+    font: "Arial";
+    text-align: center auto;
+    color: white;
+    font-size: xx-large;
+}
+
+h4 {
+    text-align: center auto;
+    color: white;
+    font-size: medium;
+}
+
+h3 {
+    text-align: center auto;
+    font-weight: bold;
+    color: white;
+}
+
+ol {
+    font: arial, serif;
+    font-weight: bold;
+}
+
+img {
+    size-adjust: center auto;
+}
