@@ -1,36 +1,37 @@
-img {
+.img {
     width: 80%;
     display: block;
     margin: 0 auto;
 }
 
-a:hoover {
+.a:hoover {
     background-color: white;
     color: slateblue;
 }
 
-main p {
+.main p {
     width: 80%;
     margin: 0 auto;
     text-align: center;
 }
 
-a {
+.a {
     font-size: 1.5em;
 }
 
-nav, footer {
+.nav, footer {
     background-color: steelblue;
     color: white;
     padding: 10px;
     text-align: center;
+    text-decoration: none;
 }
 
-h1 {
+.h1 {
     text-align: center;
 }
 
-footer p {
+.footer p {
     font-size: 20px;
     margin: 20px auto;
 }
