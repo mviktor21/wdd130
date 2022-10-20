@@ -36,7 +36,6 @@ body {
     padding: 0;
 }
 
-
 header {
     background-color: rgba(20,30,13, .7);
 }
@@ -115,6 +114,11 @@ main section img {
 
 h2 {
     margin: 0;
+}
+
+.msg h2 {
+    background-color: black;
+    color: #d9c2a3;
 }
 
 .msg p {
