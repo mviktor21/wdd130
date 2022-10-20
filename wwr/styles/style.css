@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 #content {
     max-width: 1600px;
@@ -32,14 +32,14 @@ main section {
 
 body {
     background-color: #fcfbfb;
-    font-family: Lato;
+    font-family: sans-serif;
     font-size: 22px;
     margin: 0;
     padding: 0;
 }
 
 header {
-    font-family: Lato;
+    font-family: 'Open Sans', sans-serif;
     background-color: rgba(20,30,13, .7);
 }
 
