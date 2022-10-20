@@ -39,6 +39,7 @@ body {
 }
 
 header {
+    font-family: Lato;
     background-color: rgba(20,30,13, .7);
 }
 
@@ -94,6 +95,7 @@ header {
 }
 
 .card-img {
+    border: 10px solid black;
     width: 30%;
     border: 10px;
 }
@@ -132,6 +134,7 @@ footer {
     margin-top: 200px;
     color: black;
     background-color: rgb(221, 180, 121);
+    padding: 25px 30px;
 }
 
 footer a {
