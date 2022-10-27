@@ -1,15 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon:ital@0;1&display=swap');
 
 #content {
     max-width: 1600px;
     margin: 0 auto;
 }
 
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
 nav a {
     text-align: center;
-    color: purple;
+    color: wheat;
     text-decoration: none;
     padding: 35px;
+    text-shadow:1px 0px 4px #333333;
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -32,15 +38,18 @@ main section {
 
 body {
     background-color: #fcfbfb;
-    font-family: sans-serif;
+    font-family: "IM Fell French Canon", sans-serif;
     font-size: 22px;
     margin: 0;
     padding: 0;
 }
 
 header {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "IM Fell French Canon", sans-serif;
+    font-style: italic;
     background-color: rgba(20,30,13, .7);
+    display: grid;
+    grid-template-columns: 150px auto;
 }
 
 #nav a:hover {
@@ -75,7 +84,7 @@ header {
 
 .home-title {
     margin-top: 10px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "IM Fell French Canon", sans-serif;
     font-size: 2em;
     color: rgb(113, 87, 196);
     text-align: center;
@@ -110,6 +119,8 @@ header {
 
 #logo_link {
     padding-top: 5px;
+    justify-self: center;
+    align-self: center;
 }
 
 main section img {
