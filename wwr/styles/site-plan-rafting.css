@@ -6,25 +6,25 @@ Fonts are separated by a & */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #396E94   ;
-  --secondary-color: #E7C24F ;
-  --accent1-color: #A42212;
-  --accent2-color: white;
+  --primary-color: #000000;
+  --secondary-color: #0CFF03;
+  --accent1-color: #2A7110;
+  --accent2-color: #585655;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "IM Fell French Canon";
   --paragraph-font: "IM Fell French Canon", Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #396E94;  /* headlines on a white background */ 
-  --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #396E94  ;
-  --nav-link-color: #396E94;
-  --nav-background-color: #E7C24F;
-  --nav-hover-link-color: white;
-  --nav-hover-background-color: #396E94;
+  --headline-color-on-white: #000000;  /* headlines on a white background */ 
+  --headline-color-on-color: #585655; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #000000; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: #585655; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #000000;
+  --nav-link-color: #000000;
+  --nav-background-color: #0CFF03;
+  --nav-hover-link-color: #585655;
+  --nav-hover-background-color: #000000;
 }
 
 
@@ -83,15 +83,19 @@ p {
 }
 .primary {
   background-color: var(--primary-color);
+  color: #585655;
 }
 .secondary {
   background-color: var(--secondary-color);
+  color: #000000;
 }
 .accent1 {
   background-color: var(--accent1-color);
+  color: #000000;
 }
 .accent2{
   background-color: var(--accent2-color);
+  color: #000000;
 }
 p.colored {
   background-color: var(--paragraph-background-color);
