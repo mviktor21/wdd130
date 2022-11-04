@@ -107,7 +107,7 @@ header {
 
 .home-grid {
     display: grid;
-    grid-template-columns: 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr;
+    grid-template-columns: 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr auto;
 }
 
 .home-title {
@@ -132,9 +132,8 @@ header {
 }
 
 .card-img, .mountains {
-    border: 10px solid black;
+    border: 10px solid #d9c2a3;
     width: 100%;
-    border: 10px;
 }
 
 .rivers-card, .camping-card, .rapids-card {
