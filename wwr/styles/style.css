@@ -107,14 +107,14 @@ header {
 
 .home-grid {
     display: grid;
-    grid-template-columns: 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 .home-title {
     margin-top: 10px;
     font-family: "IM Fell French Canon", sans-serif;
     font-size: 2em;
-    color: rgb(113, 87, 196);
+    color: white;
     text-align: center;
 }
 
@@ -143,10 +143,6 @@ header {
 .msg {
     grid-column: 6/10;
     grid-row: 6/7;
-}
-
-.card-img, .mountains {
-    width: 100%;
 }
 
 .rivers-card {
