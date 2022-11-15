@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon:ital@0;1&display=swap');
+
+html {
+    background-color: black;
+}
+
+.body {
+    background-color: black;
+    font-family: 'IM Fell French Canon', serif;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.responsive {
+    max-width: 200px;
+    height: auto;
+  }
+
+.weeks {
+    color: blueviolet;
+    text-align: center auto;
+}
+
+.h2 {
+    color: black;
+    text-align: center auto;
+}
+
+.p {
+    color: gray;
+    text-align: center auto;
+}
+
+.footnav {
+    background-color: #333;
+    overflow: hidden;
+    flex-direction: column;
+  }
+  
+  .footnav a {
+    text-align: center;
+    color: #f5deb3;
+    text-decoration: none;
+    padding: 35px;
+    text-shadow:1px 0px 4px #333333;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .footnav a:hover {
+    background-color: cornflowerblue;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .footnav a.read {
+    background-color: cornflowerblue;
+    color: white;
+  }
