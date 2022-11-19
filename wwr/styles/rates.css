@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon:ital@0;1&display=swap');
 
+:root {
+    --nav-link-color: #333333;
+    --nav-background-color: #333333;
+    --nav-hover-link-color: #fcfbfb;
+    --nav-hover-background-color: #C7996B;
+}
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -18,6 +25,13 @@ nav a {
     padding: 35px;
     text-shadow:1px 0px 4px #333333;
 }
+nav a:link, nav a:visited {
+    color: var(--nav-hover-link-color);
+  }
+  nav a:hover {
+    color: var(--nav-link-color);
+    background-color: var(--nav-hover-background-color);
+  }
 
 #rates-dates-image {
     display: grid;
@@ -72,24 +86,33 @@ header {
 }
 
 .rates-box {
-    grid-column: 1/2;
-    grid-row: 1/2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     z-index: -1
 }
 
 .rates-dates-title {
-    margin-top: -350px;
-    margin-left: -950px;
     font-family: "IM Fell French Canon", sans-serif;
+    margin-top: -300px;
+    margin-left: -350px;
     font-size: 2em;
-    color: #f5deb3;
     text-align: center;
     grid-column: 3/4;
-    grid-row: 2/2   
+    grid-row: 2/2;
+}
+
+.subtitle {
+    font-family: "IM Fell French Canon", sans-serif;
+    margin-left: -220px;
+    text-align: center;
+    grid-column: 3/4;
+    grid-row: 2/2;
 }
 
 #rates-img {
     width: 100%;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 
 .logo {
@@ -111,6 +134,12 @@ main section img {
     margin-left: 10px;
     color: white;
     text-shadow:1px 0px 4px #333333;
+}
+
+.river-banner-img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
 }
 
 footer {
@@ -165,16 +194,21 @@ footer .social img {
     }
     
     #rates-img {
-        margin-top: 0;
+        margin-top: 10px;
     }
  
     .rates-dates-title {
+        margin-top: -350px;
+        margin-left: -250px;
         font-size: 25px;
-        color: #333333;
     }
 
-    .river-banner {
-        width: 60%;
+    .subtitle {
+        font-size: 15px;
+    }
+
+    .river-banner-img {
+        width: 100%;
         display: block;
         margin: 0 auto;
     }
