@@ -24,10 +24,9 @@ nav a {
     width: 80px;
 }
 
-#logo_link {
-    padding-top: 5px;
-    justify-self: center;
-    align-self: center;
+#contact-img {
+    width: 100%;
+    height: 100%;
 }
 
 main section {
@@ -72,6 +71,11 @@ header {
 .moveDown {
     margin-top: 3em;
 }
+
+.banner {
+    width: 100%;
+}
+
 footer {
     display: flex;
     justify-content: space-around;
