@@ -180,6 +180,7 @@ footer .social img {
     #rates-img, .rates-info {
         display: block;
         height: auto;
+        font-size: 22px;
     }
     nav, footer {
         flex-direction: column;
