@@ -64,21 +64,22 @@ nav a {
     color: #0CFF03;
     text-align: center;
     text-shadow:1px 0px 4px #858382;
+    width: 300px;
 }
 
 .home-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr max-content;
     align-items: center;
     width: 300%;
+    margin: 15px 0;
+    margin-left: 10px;
 }
 
 .card-img {
     border: 10px solid #000000;
-    width: 15%;
+    width: 12%;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #2A7110;
-    margin: 20px 0;
 }
 
 .card-img:hover {
