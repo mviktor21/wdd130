@@ -5,15 +5,47 @@
     margin: 0 auto;
 }
 body {
-    background-color: #fcfbfb;
+    background-color: #333333;
     font-family: "IM Fell French Canon", sans-serif;
     font-size: 22px;
     margin: 0;
     padding: 0;
 }
+
+.home-logo {
+    width: 110px;
+}
+
 header {
-    font-family: "IM Fell French Canon", sans-serif;
-    background-color: #333333;
     display: grid;
     grid-template-columns: 150px auto;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    text-shadow:1px 0px 4px #858382;
+}
+
+nav a {
+    text-align: center;
+    color: #0CFF03;
+    text-decoration: none;
+    padding: 35px;
+    text-shadow:1px 0px 4px #333333;
+}
+
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#hero-content {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+#hero-message {
+    color: #0CFF03;
+    text-align: center;
+    text-shadow:1px 0px 4px #858382;
 }
