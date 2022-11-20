@@ -23,7 +23,6 @@ header {
 nav {
     display: flex;
     justify-content: space-around;
-    text-shadow:1px 0px 4px #858382;
 }
 
 nav a {
@@ -31,7 +30,24 @@ nav a {
     color: #0CFF03;
     text-decoration: none;
     padding: 35px;
-    text-shadow:1px 0px 4px #333333;
+    text-shadow:1px 0px 4px #858382;
+}
+
+#nav a:hover {
+    background-color: #0CFF03;
+    color: #000000;
+}
+
+.home-title {
+    margin-top: 10px;
+    font-family: "IM Fell French Canon", sans-serif;
+    font-size: 2em;
+    color: #fcfbfb;
+    text-align: center;
+}
+
+#hero-img {
+    width: 100%;
 }
 
 #hero {
@@ -48,4 +64,72 @@ nav a {
     color: #0CFF03;
     text-align: center;
     text-shadow:1px 0px 4px #858382;
+}
+
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr max-content;
+    align-items: center;
+    width: 300%;
+}
+
+.card-img {
+    border: 10px solid #000000;
+    width: 15%;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #2A7110;
+    margin: 20px 0;
+}
+
+.card-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+
+.approve-more, .stable-system, .specialists {
+    margin: 10px 0;
+}
+
+.approve-more {
+    grid-column: 1/1;
+    grid-row: auto;
+}
+.stable-system {
+    grid-column: 2/2;
+    grid-row: auto;
+}
+.specialists {
+    grid-column: 3/3;
+    grid-row: auto;
+}
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 200px;
+    color: #2A7110;
+    background-color: #000000;
+    padding: 25px 50px;
+}
+
+footer a {
+    text-shadow:1px 0px 4px #858382;
+    text-align: center;
+    color: #0CFF03;
+    text-decoration: none;
+}
+
+footer p {
+    text-shadow:1px 0px 4px #858382;
+    color: #0CFF03;
+    font-size: 1.2em;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+footer .social img {
+    width: 60px;   
+    padding-top: 15px;
 }
