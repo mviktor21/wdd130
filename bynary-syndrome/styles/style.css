@@ -91,18 +91,6 @@ nav a {
     margin: 10px 0;
 }
 
-.approve-more {
-    grid-column: 1/1;
-    grid-row: auto;
-}
-.stable-system {
-    grid-column: 2/2;
-    grid-row: auto;
-}
-.specialists {
-    grid-column: 3/3;
-    grid-row: auto;
-}
 footer {
     display: flex;
     justify-content: space-around;
