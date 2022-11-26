@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon:ital@0;1&display=swap');
 
 #content {
+    background-color: #C7996B;
     max-width: 1600px;
     margin: 0 auto;
 }
