@@ -165,7 +165,7 @@ footer .social img {
 }
 
 @media screen and (max-width: 900px) {
-    #hero, .home-grid {
+    #hero, .hero-content img {
         display: block;
         height: auto;
     }
@@ -179,27 +179,24 @@ footer .social img {
     #hero {
         margin-top: 0;
     }
-    #hero-msg {
+    .hero-content {
+        display: contents;
+        width: auto;
+        grid-template-columns: auto;
+    }
+    #hero-message {
         margin-top: 0;
     }
-    #hero-msg p {
-        display: none;
-    }
-    .home-title {
+    #hero-message p {
         font-size: 25px;
-        color: #333333;
+        color: #2A7110;
     }
-    .rivers-card, .camping-card, .rapids-card { 
+    #home-grid {
+        align-items: stretch;
+    }
+    .approve-more, .stable-system, .specialists {
         margin: 50px auto;
         width: 60%;
-    }
-    #background {
-        display: none;
-    }
-    .mountains, .msg {
-        width: 80%;
-        display: block;
-        margin: 0 auto;
     }
     footer {
         margin-top: 25px;
