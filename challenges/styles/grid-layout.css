@@ -1,0 +1,82 @@
+/******************************************************************************
+START grid layout extra credit
+******************************************************************************/
+
+body {
+    box-sizing: border-box;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+  .grid1 {
+    display: grid;
+    text-align: center;
+  }
+  
+  .grid1 h1 {
+    display: grid;
+    grid-column: 1/3;
+    grid-row: 1;
+  }
+  
+  .grid2 {
+    grid-column: ;
+    grid-row: 2;
+  }
+  .grid2 h2 {
+    
+  }
+  .grid3 {
+    
+  }
+  
+  .grid3 h3 {
+    
+  }
+  
+  .grid4 {
+    
+  }
+  
+  .grid4 h2 {
+    
+  }
+  
+  section {
+    
+  }
+  
+  section h2 {
+    
+  }
+  
+  form {
+    
+  }
+  
+  
+  legend {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  
+  fieldset > div {
+    
+  }
+  
+  label {
+    
+  }
+  
+  input {
+    
+  }
+  
+  button {
+    
+  }
+  
+  section > div {
+    
+  }
