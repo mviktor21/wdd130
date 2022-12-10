@@ -39,9 +39,13 @@ p {
 nav {
     display: flex;
     justify-content: space-around;
+    position: static;
+    top: 0;
 }
 
 nav a {
+    float: left;
+    display: block;
     text-align: center;
     color: #0CFF03;
     text-decoration: none;
@@ -54,6 +58,15 @@ nav a:hover {
     background-color: #000000;
 }
 
+nav a.active {
+    background-color: #0CFF03;
+    color: #000000;
+}
+
+.main {
+    margin-top: 30px;
+}
+
 .home-title {
     margin-top: 10px;
     font-family: "IM Fell French Canon", sans-serif;
@@ -62,9 +75,17 @@ nav a:hover {
     text-align: center;
 }
 
-#hero-content img {
-    margin-top: 22px;
-    width: 42vw;
+.hero-content {
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-content img {
+    position: relative;
+    width: 100vmax;
 }
 
 #hero {
@@ -73,11 +94,15 @@ nav a:hover {
 }
 
 #hero-message {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
     color: #0CFF03;
     text-shadow:1px 0px 4px #858382;
-    max-width: 40vw;
-    margin: 0;
-    padding: 0 80px;
+    width: 100%;
+    padding: 20px;
 }
 
 .home-title {
@@ -164,7 +189,7 @@ footer .social img {
     padding-top: 15px;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 600px) {
     #hero, .hero-content img {
         display: block;
         height: auto;
@@ -173,28 +198,37 @@ footer .social img {
         flex-direction: column;
     }
     nav a {
+        float: none;
         display: block;
-        padding: 15px;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+        padding: 14px;
     }
     #hero {
         margin-top: 0;
     }
     .hero-content {
+        flex-direction: column;
         display: contents;
         width: auto;
         grid-template-columns: auto;
     }
     #hero-message {
+        flex-direction: column;
         margin-top: 0;
     }
     #hero-message p {
+        flex-direction: column;
         font-size: 25px;
         color: #2A7110;
     }
     #home-grid {
+        flex-direction: column;
         align-items: stretch;
     }
     .approve-more, .stable-system, .specialists {
+        flex-direction: column;
         margin: 50px auto;
         width: 60%;
     }
