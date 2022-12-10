@@ -11,10 +11,6 @@
     --paragraph-font: "IM Fell French Canon", Helvetica, sans-serif;
 }
 
-#content {
-    max-width: 1600px;
-    margin: 0 auto;
-}
 body {
     background-color: #333333;
     font-family: "IM Fell French Canon", sans-serif;
@@ -26,16 +22,12 @@ body {
     width: 110px;
 }
 
-header {
-    display: grid;
-    grid-template-columns: 150px auto; 
-}
-
 p {
     font-family: var(--paragraph-font);
     color: var(--paragraph-color);
     padding: 1em;
   }
+
 nav {
     display: flex;
     justify-content: space-around;
@@ -54,7 +46,10 @@ nav a:hover {
     background-color: #000000;
 }
 
-  
+.container {
+    width: 80%;
+}
+
 footer {
     display: flex;
     justify-content: space-around;
@@ -85,4 +80,14 @@ footer p a:hover {
 footer .social img {
     width: 60px;   
     padding-top: 15px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+    .content {
+        width: 46%;
+        margin: 1% 2%;
+
+    }  
 }
