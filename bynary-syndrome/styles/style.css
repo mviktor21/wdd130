@@ -28,19 +28,18 @@ body {
 
 header {
     display: grid;
-    grid-template-columns: 150px auto; 
+    grid-template-columns: 150px auto;
 }
 
 p {
     font-family: var(--paragraph-font);
     color: var(--paragraph-color);
     padding: 1em;
-  }
+}
+
 nav {
     display: flex;
-    justify-content: space-around;
-    position: static;
-    top: 0;
+    justify-content: space-around;  
 }
 
 nav a {
@@ -61,10 +60,6 @@ nav a:hover {
 nav a.active {
     background-color: #0CFF03;
     color: #000000;
-}
-
-.main {
-    margin-top: 30px;
 }
 
 .home-title {
@@ -103,12 +98,6 @@ nav a.active {
     text-shadow:1px 0px 4px #858382;
     width: 100%;
     padding: 20px;
-}
-
-.home-title {
-    text-align: center;
-    margin-top: 70px;
-    margin-bottom: -30px;
 }
 
 .subtitle1 {
