@@ -6,7 +6,6 @@
     --accent1-color: #2A7110;
     --accent2-color: #858382;
   
-    /* change the values below to your chosen font(s) */
     --heading-font: "IM Fell French Canon";
     --paragraph-font: "IM Fell French Canon", Helvetica, sans-serif;
 }
@@ -28,7 +27,7 @@ body {
 
 header {
     display: grid;
-    grid-template-columns: 150px auto;
+    grid-template-columns: 1fr auto;
 }
 
 p {
@@ -39,7 +38,8 @@ p {
 
 nav {
     display: flex;
-    justify-content: space-around;  
+    justify-content: space-around;
+    margin-top: -90px;
 }
 
 nav a {
@@ -76,19 +76,20 @@ nav a.active {
 }
 
 #hero {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
 #hero-message {
-    position: absolute;
+    z-index: 1;
+    margin-top: -365px;
     text-align: left;
-    bottom: 0;
     background: rgb(0, 0, 0);
     background: rgba(0, 0, 0, 0.5);
     color: #0CFF03;
     text-shadow:1px 0px 4px #858382;
     width: 100%;
-    padding: 20px;
+    margin-bottom: 4px;
 }
 
 .subtitle1 {
@@ -106,7 +107,51 @@ nav a.active {
 
 #navigation {
     display: grid;
-    grid-template-columns: 1fr 1fr auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.nav-class {
+    grid-column: 2/6;
+    color: #0CFF03;
+    text-shadow:1px 0px 4px #858382;
+}
+
+.ai-class {
+    grid-column: 7/11;
+    color: #0CFF03;
+    text-shadow:1px 0px 4px #858382;
+}
+
+.solutions-grid {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+    font-size: 30px;
+    text-align: center;
+}
+
+.solution-card {
+    border: 10px solid #000000;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #2A7110;
+    justify-content: space-between;
+    width: 200px;
+    height: 180px;
+}
+
+.solution-card:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+
+.respond {
+    margin-left: 20px;
+    align-content: center;
+}
+
+.review {
+    margin-left: 20px;
+    align-content: center;
 }
 
 footer {
